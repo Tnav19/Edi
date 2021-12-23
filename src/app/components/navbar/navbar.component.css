@@ -1,0 +1,62 @@
+
+.logo {
+  margin: 20px;
+  width: auto;
+  height: 46px;
+}
+.navbar {
+  flex-flow: column;
+  display: inline-block;
+}
+.header-phone {
+  color: #b91e1e;
+}
+
+.blue-color {
+  color: brown;
+}
+
+.material-icons {
+  display: inline-flex;
+  vertical-align: top;
+}
+
+#txt {
+  border-style: solid;
+  border-color: brown;
+  border: 2px solid brown;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+#home:hover {
+  color: brown;
+}
+
+#careers:hover {
+  color: brown;
+}
+
+#navbarDropdown:hover {
+  color: brown;
+}
+
+#contact {
+  background-color: brown; /* Green */
+  color: white;
+  border-radius: 18px;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+#team:hover {
+  color: brown;
+}
+

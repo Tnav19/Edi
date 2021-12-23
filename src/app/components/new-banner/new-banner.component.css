@@ -1,0 +1,14 @@
+.banner {
+  color: #464646;
+  background-color: #f3e8e5;
+  border-color: #f3e8e5;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  padding: 13px 5px;
+  line-height: 1.2;
+  font-weight: 600;
+}

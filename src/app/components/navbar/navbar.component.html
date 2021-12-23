@@ -1,0 +1,171 @@
+<nav
+  class="navbar navbar-expand d-flex navbar-light sticky-top"
+  style="background-color: #f7f4ef"
+>
+  <div class="container-fluid">
+    <div class="navbar-headers">
+      <a
+        title="Educational Initiatives"
+        routerLink="/"
+        routerLinkActive="active"
+        ><img
+          class="logo"
+          src="https://www.ei-india.com/newEIWebsite/eiasset/images/journey1.png"
+          alt="Educational Initiatives"
+        />
+      </a>
+    </div>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a href="tel:1800-102-8885 " id="txt" class="nav-link"
+          ><span class="material-icons blue-color">local_phone</span>
+          1800-102-8885</a
+        >
+      </li>
+
+      <li class="nav-item px-2">
+        <a
+          routerLink="/"
+          routerLinkActive="active"
+          id="home"
+          class="active nav-link"
+          >Home</a
+        >
+      </li>
+
+      <li class="nav-item px-2 dropdown">
+        <a
+          href="#"
+          class="nav-link dropdown-toggle"
+          id="navbarDropdown"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          >Offerings</a
+        >
+        <ul class="dropdown-menu" id="drop" aria-labelledby="navbarDropdown">
+          <li>
+            <a
+              class="dropdown-item"
+              target="_blank"
+              href="https://www.mindspark.in"
+              ><img
+                alt=""
+                src="https://www.ei-india.com/newEIWebsite/eiasset/images/logos/Logos/ei_mindspark.svg"
+            /></a>
+          </li>
+
+          <li>
+            <a class="dropdown-item" href="https://www.ei-india.com/asset"
+              ><img
+                alt=""
+                src="https://www.ei-india.com/newEIWebsite/eiasset/images/logos/Logos/ei_asset.svg"
+            /></a>
+          </li>
+
+          <li>
+            <a class="dropdown-item" href="https://www.ei-india.com/cares"
+              ><img
+                alt=""
+                src="https://www.ei-india.com/newEIWebsite/eiasset/images/logos/Logos/ei_cares.svg"
+            /></a>
+          </li>
+
+          <li>
+            <a class="dropdown-item" href="https://www.ei-india.com/lsep"
+              ><img
+                src="https://www.ei-india.com/newEIWebsite/eiasset/images/logos/Logos/ei_shiksha.svg"
+            /></a>
+          </li>
+
+          <li>
+            <a
+              class="dropdown-item"
+              target="_blank"
+              href="https://www.assettalentsearch.com"
+              ><img
+                alt=""
+                src="https://www.ei-india.com/newEIWebsite/eiasset/images/logos/Logos/ei_gifted_studies.svg"
+            /></a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-item dropdown px-2">
+        <a
+          href="#"
+          class="nav-link dropdown-toggle"
+          id="navbarDropdown"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          >Resources</a
+        >
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li>
+            <a
+              class="dropdown-item"
+              href="https://blog.ei-india.com"
+              target="_blank"
+              >Blog
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="dropdown-item"
+              href="https://www.ei-india.com/resources/essential_concepts"
+              target="_blank"
+            >
+              Essential Concepts
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-item px-2">
+        <a
+          class="nav-link"
+          id="team"
+          routerLink="/team"
+          routerLinkActive="active"
+          >Team</a
+        >
+      </li>
+
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          id="careers"
+          routerLink="/careers"
+          routerLinkActive="active"
+          >Careers</a
+        >
+      </li>
+      <li class="nav-item px-2">
+        <a
+          class="nav-link"
+          id="contact"
+          role="button"
+          href="https://www.ei-india.com/contact"
+          >Contact</a
+        >
+      </li>
+    </ul>
+    <!-- end dropdown -->
+  </div>
+
+  <!--/.container-fluid -->
+</nav>
+<router-outlet></router-outlet>
